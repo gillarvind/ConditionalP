@@ -23,19 +23,18 @@
                         primeNumer.Prime();
                         break;
                     case 4:
-                        PerfectNum perfectNum = new PerfectNum();
-                        perfectNum.Number();
-                        break;
-                    case 5:
                         FibonacciSeries fibonacciSeries = new FibonacciSeries();
                         fibonacciSeries.Series();
+                        break;
+                    case 5:
+                        PerfectNum perfectNum = new PerfectNum();
+                        perfectNum.Number();                       
                         break;
                     default:
                         Console.WriteLine("enter correct number");
                         break;
                 }
             }
-        }
-    }
-    }
+        }    
+    }    
 }
